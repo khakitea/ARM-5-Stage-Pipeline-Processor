@@ -1,11 +1,16 @@
 This project was to construct a complete single-cycle processor, then pipeline, resolve issues and enhance the performance.
 
+
 5-staged (4 pipeline registers total).
+
 Stages are: Fetch, Decode, Execute, Memory and Writeback.
+
 
 top.sv is the main file.
 
-<Implemented>
+
+Implemented:
+
 Basic ALU instructions:
   * Full-adder
   * Addition
@@ -13,13 +18,13 @@ Basic ALU instructions:
   * bitwise AND
   * bitwise OR
 Additional instructions:
-  * CMP
-  * B
+  - CMP
+  - B
 
 Hazard Controls:
-  * Data hazard
-  * Control hazard
-  * Structural hazard
+  - Data hazard
+  - Control hazard
+  - Structural hazard
 
 Passed all testbenches.
 
